@@ -1,0 +1,53 @@
+/* Reduce the height of tab bar */
+#TabsToolbar {
+  min-height: 20px !important; /* Adjust the height as needed */
+  backdrop-filter: blur(5px) !important;
+}
+
+/* Reduce the height of individual tabs */
+.tabbrowser-tab {
+  min-height: 15px !important; /* Adjust the height as needed */
+}
+
+/* Reduce font size of bookmark items in the bookmarks toolbar */
+#PersonalToolbar .bookmark-item > .toolbarbutton-text {
+  font-size: 12px !important; /* Adjust the font size as needed */
+}
+
+#PersonalToolbar{
+  padding: 0 25px !important;
+  border-radius: 0 0 35px 35px !important;
+  background: #2d2d2d !important;
+  max-height: 22px !important;   
+}
+
+#navigator-toolbox {
+  box-shadow: 0px 5px 7px #111 !important;
+  z-index: 9;
+  border-bottom: none !important;
+}
+
+.tab-background{
+  max-height: 10px !important;
+  outline: none !important;
+}
+
+#TabsToolbar-customization-target{
+  height: 37px !important;
+}
+
+ #nav-bar{
+  height: 30px !important;;
+} 
+
+#urlbar{
+	min-height: 22px !important;
+}
+
+#searchbar {
+  height: 38px !important;;
+}
+
+#urlbar, #searchbar {
+  font-size: -6.9em !important;;
+}
